@@ -14,6 +14,20 @@ package amazonviewer;
         import makereport.Report;
         import util.AmazonUtil;
 
+/**
+ * <h1>AmazonViewer</h1>
+ * AmazonViewer es un programa que permite visualizar Movies, Series con sus respectivos Chapters,
+ * Books y Magazines. Te permite generar reportes generales y con fecha del día.
+ * <p>
+ * Existen algunas reglas como todos los elementos pueden ser visualizados o leídos
+ * a excepción de las Magazines, estas sólo pueden ser vistas a modo de exposición
+ * sin ser leídas.
+ *
+ * @author lourdesnrdz
+ * @version 1.1
+ * @since 2021
+ *
+ * */
 public class Main {
 
     public static void main(String[] args) {

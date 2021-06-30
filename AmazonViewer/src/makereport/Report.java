@@ -7,6 +7,21 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
+/**
+ * <h1>Report</h1>
+ *
+ * Report es una herramienta que nos ayuda a generar un archivo con los datos y extensión determinados
+ *
+ * <p>
+ *
+ * A partir de los atributos {@code nameFile}, {@code title} y
+ * {@code content}, genera un documento de tipo .txt
+ *
+ * @author lourdesnrdz
+ * @version 1.1
+ * @since 2021
+ *
+ * */
 public class Report {
 
     private String nameFile;
