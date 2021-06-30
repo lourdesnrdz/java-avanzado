@@ -2,6 +2,11 @@ package amazonviewer.model;
 
 import java.util.ArrayList;
 
+// Hereda de movie y movie hereda de film
+/**
+ * Hereda de {@link Movie}
+ * @see Film
+ * */
 public class Chapter extends Movie {
 
     private int id;
