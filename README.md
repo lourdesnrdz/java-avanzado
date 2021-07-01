@@ -1,4 +1,4 @@
-# Advances Java
+# Advanced Java
 Advanced Java SE Course
 
 # Java SE Object Oriented
