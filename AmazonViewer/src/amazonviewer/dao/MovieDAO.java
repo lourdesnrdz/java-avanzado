@@ -3,16 +3,26 @@ package amazonviewer.dao;
 import amazonviewer.db.IDBConnection;
 import amazonviewer.model.Movie;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import static amazonviewer.db.DataBase.*;
 
 public interface MovieDAO extends IDBConnection {
 
     default Movie setMovieViewed(Movie movie) {
+        try (Connection connection = connectToDB()){
+            Statement statement = connection.createStatement();
+            String query = "INSERT INTO " + TVIEWED +
+                    " ("+TVIEWED_IDMATERIAL+", "+TVIEWED_IDELEMENT+", "+TVIEWED_IDUSER+")" +
+                    " VALUES("+ID_TMATERIALS [0]+", "+movie+", "+TVIEWED_IDUSER+")";
+
+            if (statement.executeUpdate(query) > 0) {
+                System.out.println("Se marcó en visto");
+            }
+
+        }catch (SQLException e) {
+            e.printStackTrace();
+        }
         return movie;
     }
 
