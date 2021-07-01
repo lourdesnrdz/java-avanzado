@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f454b9e8-3f12-439c-ac11-64944d31b632" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/dao/MovieDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/dao/MovieDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/db/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/db/DataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/model/Movie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
