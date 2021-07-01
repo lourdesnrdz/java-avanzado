@@ -5,6 +5,8 @@ package amazonviewer;
         import java.util.Date;
         import java.util.Scanner;
         import java.util.concurrent.atomic.AtomicInteger;
+        import java.util.function.Consumer;
+        import java.util.function.Predicate;
 
         import amazonviewer.model.Book;
         import amazonviewer.model.Chapter;
@@ -263,31 +265,18 @@ public class Main {
 
         movies.stream().filter(m -> m.getIsViewed())
                 .forEach(m -> contentReport.append(m.toString() + "\n"));
+        
+//        Predicate<Serie> seriesViewed = s -> s.getIsViewed();
+//        Consumer<Serie> seriesEach = s -> contentReport.append(s.toString() + "\n")
+        Consumer<Serie> seriesEach = s -> {
+            ArrayList<Chapter> chapters = s.getChapters();
+            chapters.stream().filter(c -> c.getIsViewed())
+                    .forEach(c -> contentReport.append(c.toString() + "\n"));
+        };
+        series.stream().forEach(seriesEach);
 
-//        for (Movie movie : movies) {
-//            if (movie.getIsViewed()) {
-//                contentReport += movie.toString() + "\n";
-//
-//            }
-//        }
-
-//        for (Serie serie : series) {
-//            ArrayList<Chapter> chapters = serie.getChapters();
-//            for (Chapter chapter : chapters) {
-//                if (chapter.getIsViewed()) {
-//                    contentReport += chapter.toString() + "\n";
-//
-//                }
-//            }
-//        }
-
-
-//        for (Book book : books) {
-//            if (book.getIsReaded()) {
-//                contentReport += book.toString() + "\n";
-//
-//            }
-//        }
+        books.stream().filter(b -> b.getIsReaded())
+                .forEach(b -> contentReport.append(b.toString() + "\n"));
 
         report.setContent(contentReport.toString());
         report.makeReport();
