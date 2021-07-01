@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f454b9e8-3f12-439c-ac11-64944d31b632" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambdas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lambdas/lambdas/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lambdas/lambdas/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lambdas/lambdas/OnOneListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/OnOneListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/dao/MovieDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/dao/MovieDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/db/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/db/DataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/out/production/AmazonViewer/amazonviewer/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/dao/MovieDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/dao/MovieDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/db/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/db/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonViewer/src/amazonviewer/model/Movie.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1uiZ4ASK7mU3Xtyq50wCIbjjx7A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.Main" />
+      <module name="Lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f454b9e8-3f12-439c-ac11-64944d31b632" name="Default Changelist" comment="" />
+      <created>1625150178399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625150178399</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

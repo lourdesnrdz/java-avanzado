@@ -16,8 +16,8 @@ public class Movie extends Film implements IVisualizable, MovieDAO {
     private int timeViewed;
 
     public Movie() {
-    }
 
+    }
     public Movie(String title, String genre, String creator, int duration, short year) {
         super(title, genre, creator, duration);
         setYear(year);
@@ -27,7 +27,6 @@ public class Movie extends Film implements IVisualizable, MovieDAO {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -76,8 +75,7 @@ public class Movie extends Film implements IVisualizable, MovieDAO {
     }
 
     public static ArrayList<Movie> makeMoviesList() {
-        Movie movie = new Movie();
-
+        Movie  movie = new Movie();
         return movie.read();
     }
 
@@ -86,6 +84,7 @@ public class Movie extends Film implements IVisualizable, MovieDAO {
      * */
     @Override
     public void view() {
+        // TODO Auto-generated method stub
         setViewed(true);
         Movie movie = new Movie();
         movie.setMovieViewed(this);
@@ -103,4 +102,5 @@ public class Movie extends Film implements IVisualizable, MovieDAO {
         System.out.println("Viste: " + toString());
         System.out.println("Por: " + getTimeViewed() + " milisegundos");
     }
+
 }

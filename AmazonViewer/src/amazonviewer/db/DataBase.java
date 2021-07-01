@@ -28,10 +28,10 @@ public class DataBase {
     public static final String TUSER_NAME           = "name";
 
     public static final String TVIEWED              = "viewed";
-    public static final String TVIEWED_ID               = "id";
+    public static final String TVIEWED_ID            = "id";
     public static final String TVIEWED_IDMATERIAL    = "id_material";
     public static final String TVIEWED_IDELEMENT     = "id_element";
-    public static final String TVIEWED_IDUSER        = "id_user";
+    public static final String TVIEWED_IDUSUARIO 	= "id_user";
 
 
 
