@@ -1,9 +1,6 @@
 # Advanced Java
 Advanced Java SE Course
 
-# Java SE Object Oriented
-OOP Course Java SE
-
 ## Table of contents
 
 * [General info](#general-info) 
