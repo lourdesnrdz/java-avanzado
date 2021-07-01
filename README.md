@@ -1,4 +1,4 @@
-# java-avanzado
+# Advances Java
 Advanced Java SE Course
 
 # Java SE Object Oriented
@@ -19,10 +19,10 @@ We reviewed interfaces and abstract classes, seen in the previous course, and im
 
 Another thing I learned was how to manage exceptions and errors using try-catch and try-with-resources. We also saw how to work with a database and implement CRUD actions using JDBC API.
 
-The last things we saw on the course was functional interfaces and how to use lambda functions in out proyect. These functions have a short life, however they are very useful and help to minimize the code. We used some in our proyect alongside stream and filter methods.
+The last things we saw on the course was functional interfaces and how to use lambda functions in out project. These functions have a short life, however they are very useful and help to minimize the code. We used some in our project alongside stream and filter methods.
 
 
-[JavaDoc](https://lourdesnrdz.github.io/java-avanzado/JavaDoc/index.html)
+See the project's [JavaDoc](https://lourdesnrdz.github.io/java-avanzado/JavaDoc/index.html).
 
 ## Technologies
 
@@ -51,7 +51,7 @@ For this course we used 2 versions of OpenJDK.
     - OpenJDK 11
 
 ### XAMPP and MySQL Connector
-We needed a phpmyadmin server for the proyect. To access this we installed XAMPP, following:
+We needed a phpmyadmin server for the project. To access this we installed XAMPP, following:
 1. Go to [https://www.apachefriends.org/es/index.html](https://www.apachefriends.org/es/index.html) 
 2. Once installes open XAMPP and start the MySQL server and Apache Web Server.
 3. One both services are inicialized, go to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)
