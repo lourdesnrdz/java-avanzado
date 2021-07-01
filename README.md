@@ -19,10 +19,9 @@ We reviewed interfaces and abstract classes, seen in the previous course, and im
 
 Another thing I learned was how to manage exceptions and errors using try-catch and try-with-resources. We also saw how to work with a database and implement CRUD actions using JDBC API.
 
-The last things we saw on the course was functional interfaces and how to use lambda functions in out project. These functions have a short life, however they are very useful and help to minimize the code. We used some in our project alongside stream and filter methods.
+Other concepts we saw on the course was functional interfaces and how to use lambda functions in out project. These functions have a short life, however they are very useful and help to minimize the code. We used some in our project alongside stream and filter methods.
 
-
-See the project's [JavaDoc](https://lourdesnrdz.github.io/java-avanzado/JavaDoc/index.html).
+We saw how to correctly do the documentation and the different tags that we can use. See the project's [JavaDoc](https://lourdesnrdz.github.io/java-avanzado/JavaDoc/index.html).
 
 ## Technologies
 
