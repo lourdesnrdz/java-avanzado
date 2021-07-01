@@ -265,7 +265,7 @@ public class Main {
 
         movies.stream().filter(m -> m.getIsViewed())
                 .forEach(m -> contentReport.append(m.toString() + "\n"));
-        
+
 //        Predicate<Serie> seriesViewed = s -> s.getIsViewed();
 //        Consumer<Serie> seriesEach = s -> contentReport.append(s.toString() + "\n")
         Consumer<Serie> seriesEach = s -> {
